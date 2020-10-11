@@ -1,0 +1,54 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+        <title>Registro de envio</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+        <body>
+            <div id="main-container">
+            <h3>Digite todas as informaçãoes para cadastro</h3></p>
+
+                <form method="GET" id="register-forms" action="registro.php">
+
+                <div class="full-box spacing" >
+                    <label for="Nchamado">Chamado</label>
+                    <input type="text" maxlength="10" name="Nchamado" id="Nchamado" placeholder="Nº Chamado">        
+                </div>
+                <div class="half-box">
+                    <label for="Snome">Nome : </label>
+                    <input type="text" maxlength="50" name="Snome" id="Snome" placeholder="Solicitante">        
+                </div>
+                <div class="half-box spacing">
+                    <label for="Nrastreio">Rastreio :</label>
+                    <input type="text" maxlength="13" name="Nrastreio" id="Nrastreio" placeholder="Nº do rastreio">        
+                </div>
+                <div class="full-box">
+                    <label for="endereco">Endereco :</label>
+                    <input type="text" maxlength="50" name="endereco" id="endereco" placeholder="Endereço de envio">        
+                </div>
+                <div class="half-box">
+                    <label for="Ncep">Cep: </label>
+                    <input type="text" maxlength="8" name ="Ncep" id="Ncep" placeholder="Nº do CEP">        
+                </div>
+                <div class="half-box">
+                    <label for="Ncidade">Cidade :</label>
+                    <input type="text" maxlength="25" name="Ncidade" id="Ncidade" placeholder="Nome da cidade">        
+                </div>
+                <div class="half-box">
+                    <label for="Nestado">Estado :</label>
+                    <input type="text" maxlength="2" name="Nestado" id="Nestado" placeholder="Sigla do estado">        
+                </div>
+                <div class="half-box">
+                    <label for="Nobjeto">Objeto :</label>
+                    <input type="text" maxlength="20" name="Nobjeto" id="Nobjeto" placeholder="Objeto enviado">        
+                </div>
+                <div class="full-box">
+                    <input type="submit" name="salv" id="btn_submit" value="SALVAR">
+            </form>
+               
+        </div>
+   
+</body>
+</html>

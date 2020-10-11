@@ -1,0 +1,96 @@
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica,sans-serif;
+    color:#FF4500;
+    border:none;
+}
+
+input,label {
+    display: block;
+    width: 100%;
+}
+
+input:focus, label:focus {
+    outline: none;
+}
+
+a{
+    color: #87CEFA;
+}
+
+body {
+    padding-top: 8vh;
+    background-image: url('../img/trem.jpg');
+    background-size: cover;
+    background-position-y: -150px;
+}
+
+/* form */
+#main-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.full-box {
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.half-box {
+    flex: 1 1 40%;
+    position: relative;
+}
+
+.spacing {
+    margin-right: 1%;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input {
+    border-bottom: 1px solid #4682B4;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+}
+
+input:focus {
+    border-color: #FF8C00;
+}
+
+input[type="submit"] {
+    background-color: #87CEFA;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+
+/*Validação */
+.error-validation {
+    color: brown;
+    position: relative;
+    top: 57px;
+    font-size: .8rem;
+}
+
+.template {
+    display: none;
+}
